@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <!-- add favicon -->
+    <title>About</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">JX</span> Web Development</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <section id="newsletter">
+        <div class="container">
+            <h1>Subscribe To Our Newsletter</h1>
+            <form action="/subscribe" method="POST">
+                <input type="email" name="subscriberEmail" placeholder="Enter Email...">
+                <button class="button_1" type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="pricing">
+        <div class="container">
+            <article>
+                <ul class="price-list">
+                    <h2>Services</h2>
+                    <li>
+                        <h3>Design</h3>
+                        <p class="price-text">$500 - $3000</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita quidem, ducimus corporis
+                            deleniti iusto esse laudantium perferendis iste temporibus libero assumenda suscipit ex amet
+                            fugit.</p>
+                    </li>
+                    <li>
+                        <h3>Maintenance</h3>
+                        <p class="price-text">$200/month</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita quidem, ducimus corporis
+                            deleniti iusto esse laudantium perferendis iste temporibus libero assumenda suscipit ex amet
+                            fugit.</p>
+                    </li>
+                    <li>
+                        <h3>Hosting</h3>
+                        <p class="price-text">$25/month</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita quidem, ducimus corporis
+                            deleniti iusto esse laudantium perferendis iste temporibus libero assumenda suscipit ex amet
+                            fugit.</p>
+                    </li>
+                </ul>
+            </article>
+            <aside class="quote-box">
+                <h3>Get A Quote</h3>
+                <form action="/services" method="POST">
+                    <div>
+                        <label for="">Name</label><br>
+                        <input type="text" name="name" placeholder="Name">
+                    </div>
+                    <div>
+                        <label for="">Email</label><br>
+                        <input type="email" name="email" placeholder="Email Address">
+                    </div>
+                    <div>
+                        <label for="">Message</label><br>
+                        <textarea name="message" placeholder="Messaage" cols="21" rows="10"></textarea>
+                    </div>
+                    <button type="submit" class="button_1">Send</button>
+                </form>
+            </aside>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <p>JX Web Development &copy; 2020</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
